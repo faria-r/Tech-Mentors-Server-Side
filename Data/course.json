@@ -1,14 +1,50 @@
 [
-    {
-        "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
-       
-        "category_id": "01",
-        
-    
-        "Course_title": "Biden Pledges Nearly $3 Billion To Ukraine In Largest U.S. Military Aid Package Yet",
-      
-        
-        "image_url": "",
-        "details": ""
-      }
+  {
+    "_id": "6357dd1449142d16bafe8724",
+    "Course_title": "HTML",
+    "category_id": 1,
+    "image_url": "https://i.ibb.co/mXkRmLL/html.jpg",
+    "details": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages",
+    "get_started":"In this article we cover the absolute basics of HTML. To get you started, this article defines elements, attributes, and all the other important terms you may have heard. It also explains where these fit into HTML. You will learn how HTML elements are structured, how a typical HTML page is structured, and other important basic language features. Along the way, there will be an opportunity to play with HTML too!"
+  },
+  {
+    "_id": "6357dd1489ed1925ee579990",
+    "Course_title": "CSS",
+    "category_id": 2,
+    "image_url": "https://i.ibb.co/61Pcsyh/css.png",
+    "details": "CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces. It can also be used with any kind of XML documents including plain XML, SVG and XUL.",
+    "get_started":"Let's try it out! Using a text editor, paste the three lines of CSS (above) into a new file. Save the file as style.css in a directory named styles.To make the code work, we still need to apply this CSS (above) to your HTML document. Otherwise, the styling won't change the appearance of the HTML. (If you haven't been following our project, pause here to read Dealing with files and HTML basics.)Open your index.html file. Paste the following line in the head (between the <head> and </head> tags)<link href=styles/style.css rel=stylesheet>Copy to Clipboard Save index.html and load it in your browser."
+  },
+  {
+    "_id": "6357dd1443184eb1ca40df27",
+    "Course_title": "BootsTrap",
+    "category_id": 3,
+    "image_url": "https://i.ibb.co/zf1nRqv/bootstrap.jpg",
+    "details": "Bootstrap is the most popular HTML, CSS and JavaScript framework for developing a responsive and mobile friendly website.It is a front-end framework used for easier and faster web development.It includes HTML and CSS based design templates for typography ,formsbuttons, tables, navigation, modals, image ,carousels and many others.It can also use JavaScript plug-ins.",
+    "get_started":"In order to use Bootstrap, you first need to integrate it into your development environment, aka web page. For that, you have two different possibilities: load it remotely or download and use Bootstrap locally. However, for both, you first need something to load it into.Create an HTML PageAs a first step in this tutorial, we will create a simple HTML template as a base where we will use Bootstrap. For that, the first thing you want to do is create a folder on your computer or server for the project files. In this case, we will simply call it bootstrap. Here, create a new text file and call it index.html. Open it with a text editor of your choice (e.g. Notepad++) and then paste the code below into it."
+  },
+  {
+    "_id": "6357dd14b8d08b0cd820c5ae",
+    "Course_title": "React JS",
+    "category_id": 4,
+    "image_url": "https://i.ibb.co/TM0D4CK/React.jpg",
+    "details": "ReactJS is JavaScript library used for building reusable UI components.According to React official documentation, following is the definition React is a library for building composable user interfaces. It encourages the creation of reusable UI components,which present data that changes over time. Lots of people use React as the V in MVC. React abstracts away the DOM from you, offering a simpler programming model and better performance.",
+    "get_started":"When starting a React project, a simple HTML page with script tags might still be the best option. It only takes a minute to set up!As your application grows, you might want to consider a more integrated setup. There are several JavaScript toolchains we recommend for larger applications. Each of them can work with little to no configuration and lets you take full advantage of the rich React ecosystem."
+  },
+  {
+    "_id": "6357dd14b7c9c4e894873aa6",
+    "Course_title": "VueJS",
+    "category_id": 5,
+    "image_url": "https://i.ibb.co/xFHMCdy/vue.jpg",
+    "details": "Vue.js is an open-source progressive JavaScript framework used to develop interactive web user interfaces and single-page applications. Vue.js is mainly focused on the view part of the application that is also called front end development.",
+    "get_started":"In Vue.js, view-models are created using the Vue class. If you are wondering what a view-model is, you can think of it as an object that makes it very easy for you to display your models data inside a view (you can treat any object literal as a model, and any HTML UI element as a view).To see how a view-model works, lets start by creating a view.And heres an object literal which will be our model. As it deals with JavaScript code, make sure you create it inside a <script> tag, or in a separate JS file.Now that we have a view and a model, its time to create a view-model (a Vue instance) that binds both together:"
+  },
+  {
+    "_id": "6357dd12b7c9c8e894873aa6",
+    "Course_title": "MongoDB",
+    "category_id": 6,
+    "image_url": "https://i.ibb.co/4d39pyC/mongoDB.jpg",
+    "details": "MongoDB is an open-source document-oriented database that is designed to store a large scale of data and also allows you to work with that data very efficiently. It is categorized under the NoSQL (Not only SQL) database because the storage and retrieval of data in the MongoDB are not in the form of tables. The MongoDB database is developed and managed by MongoDB",
+    "get_started":"After you install MongoDB, you can see all the installed file inside C:ProgramFiles/MongoDB/(default location).In the C:/Program Files/MongoDB/Server.3.2/bin directory,there are a bunch of executables and a short-description about them would be mongo The Command Line Interface to interact with the db.mongodThis is the database. Sets up the servermongodump It dumps out the Binary of the Database(BSON) mongoexport Exports the document to Json, CSV format mongoimport To import some data into the DB.mongorestore to restore anything that you have exported.mongostat Statistics of databases"
+  }
 ]
