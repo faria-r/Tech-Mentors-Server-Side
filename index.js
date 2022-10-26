@@ -7,10 +7,11 @@ const courses = require('./Data/course.json')
 
 app.use(cors());
 
-
+//API for loading categories
 app.get('/categories',(req,res)=>{
     res.send(categories)
 })
+//API for loading specific category according to ID
 app.get('/categories/:id',(req,res)=>{
     const id = req.params.id;
     const course = courses.find(course => course.category_id == id);
