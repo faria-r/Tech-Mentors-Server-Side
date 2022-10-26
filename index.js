@@ -21,6 +21,8 @@ app.get('/categories/:id',(req,res)=>{
 app.get('/courses',(req,res)=>{
     res.send(courses)
 })
+
+//API for protected route according to id 
 app.get('/checkout/:id',(req,res)=>{
     const id = req.params.id;
     const checkoutPage = courses.find(course => course._id === id);
