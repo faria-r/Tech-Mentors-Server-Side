@@ -4,7 +4,7 @@ const port = process.env.port || 5000;
 const cors = require('cors');
 const categories = require('./Data/Course_category.json');
 const courses = require('./Data/course.json')
-
+//middleware
 app.use(cors());
 
 //API for loading categories
